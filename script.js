@@ -16,3 +16,5 @@ function resetCounter() {
 function updateDisplay(val) {
     document.getElementById("counter-label").innerHTML = val;
 }
+const audio = new Audio('WHISTLE.WAV');
+audio.play();
